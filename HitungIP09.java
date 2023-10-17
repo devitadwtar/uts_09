@@ -46,7 +46,7 @@ public class HitungIP09 {
 
          System.out.println("Apakah lanjut input nilai (y/t)? ");
         ulang = sc09.next().charAt(0);
-        
+        IP = sc09.nextDouble();
 
         }while(ulang != 't');
          System.out.println("===== Hasil Perhitungan IP =====");
