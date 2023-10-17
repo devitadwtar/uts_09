@@ -24,10 +24,6 @@ public class HitungIP09 {
          kategori = sc09.nextLine();
         System.out.print("Masukkan jumlah SKS : ");
         SKS = sc09.nextInt();
-
-        nilai = sc09.nextDouble()
-         IP = (nilai * SKS)/ SKS;
-        Remidi = sc09.nextInt();
     
         kategori = sc09.nextLine();
         if (kategori.equalsIgnoreCase("A")){
@@ -59,6 +55,9 @@ public class HitungIP09 {
          System.out.print("Mata Kuliah: " + matKul);
          System.out.print("Jumlah SKS : " + SKS);
 
+         
+          IP = (nilai * SKS)/ SKS;
+        Remidi = sc09.nextInt();
 
          System.out.println("Jumlah MK yang harus diperbaiki: " + Remidi);
 
